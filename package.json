@@ -1,0 +1,30 @@
+{
+  "name": "dlc",
+  "version": "0.0.1",
+  "description": "An app that creates a community of learning",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noordean/DLC.git"
+  },
+  "author": "noordean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noordean/DLC/issues"
+  },
+  "homepage": "https://github.com/noordean/DLC#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.5",
+    "firebase": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
